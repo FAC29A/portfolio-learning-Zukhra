@@ -1,8 +1,7 @@
 ## Purpose
+ Welcome to my portfolio, a visual chronicle of my educational journey as I navigate the vast realm of learning.
 
-The purpose of this portfolio is to demonstrate the learning outcomes you've attained during your time at Founders and Coders (and beyond!). The portfolio should include code snippets and screenshots projects you've worked on, which will serve as evidence of your knowledge and abilities when you do your assessments.
-
-This portfolio template is also designed to showcase your skills and achievements to potential employers and others. By regularly updating your portfolio with new projects and learning outcomes, you can demonstrate your ongoing growth and development as a programmer.
+ I've had two main sources of learning: FAC29a and exploring on my own.
 
 ## Example from previous cohorts
 
