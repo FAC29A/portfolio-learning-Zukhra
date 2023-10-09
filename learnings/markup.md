@@ -14,15 +14,21 @@ This topic is focused on the fundamental building blocks of web pages—accessib
 
 3. **Branching:**
    - Creating separate branches for different features or tasks to ensure isolated development.
+     `git branch branch-name`
+   - Leave the main branch by switching to the new branch you have just created.
+     `git checkout branch-name`
+     Alternatively you can do this in a single step by using the -b flag to tell the git checkout command to create the new branch:
+     `git checkout -b branch-name`   
 
 4. **Committing Changes:**
    - Making changes to code files and committing them with descriptive commit messages.
 
 5. **Pushing to Remote:**
    - Pushing your branch's changes to the remote GitHub repository.
+     `git push origin branch-name`
 
 6. **Pull Requests (PRs):**
-   - Creating pull requests to propose changes to the main branch.
+   - Creating pull requests to propose changes to the **main** branch.
    - Reviewing PRs for code quality, correctness, and adherence to coding standards.
 
 7. **Merging PRs:**
@@ -36,4 +42,6 @@ This topic is focused on the fundamental building blocks of web pages—accessib
 
 11. **Best Practices:**
     - Following best practices for writing descriptive commit messages, linking commits to related issues, and maintaining a clean Git history.
+
+Link to the work shop: https://learn.foundersandcoders.com/workshops/git-workflow/
 
