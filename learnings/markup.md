@@ -7,25 +7,25 @@ This topic is focused on the fundamental building blocks of web pages—accessib
    - Setting up a new GitHub repository where your project code will be hosted.
      
 2. **Clone this new repository using your terminal:**
-   `git clone 'PASTE THE URL OF YOUR REPOSITORY HERE'`
+   ```git clone 'PASTE THE URL OF YOUR REPOSITORY HERE'```
 
 2. **Issue Tracking:**
    - Using GitHub issues to track tasks and features to be implemented in the project.
 
 3. **Branching:**
    - Creating separate branches for different features or tasks to ensure isolated development.
-     `git branch branch-name`
+     ```git branch branch-name```
    - Leave the main branch by switching to the new branch you have just created.
-     `git checkout branch-name`
+     ```git checkout branch-name```
      Alternatively you can do this in a single step by using the -b flag to tell the git checkout command to create the new branch:
-     `git checkout -b branch-name`   
+     ```git checkout -b branch-name```   
 
 4. **Committing Changes:**
    - Making changes to code files and committing them with descriptive commit messages.
 
 5. **Pushing to Remote:**
    - Pushing your branch's changes to the remote GitHub repository.
-     `git push origin branch-name`
+     ```git push origin branch-name```
 
 6. **Pull Requests (PRs):**
    - Creating pull requests to propose changes to the **main** branch.
