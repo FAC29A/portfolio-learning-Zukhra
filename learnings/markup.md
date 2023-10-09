@@ -1,21 +1,39 @@
-## 1. Structure a site using semantic HTML to aid accessibility
+# Markup
+This topic is focused on the fundamental building blocks of web pages—accessible, semantic HTML, and well-organised CSS.
 
-## 2. Ensure a web page is readable for screen readers
+## Git workflow
 
-## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
+1. **Creating a New Repository:**
+   - Setting up a new GitHub repository where your project code will be hosted.
+     
+2. **Clone this new repository using your terminal:**
+   `git clone 'PASTE THE URL OF YOUR REPOSITORY HERE'`
 
-## 4. Use various tools to check that our website meets accessibility criteria
+2. **Issue Tracking:**
+   - Using GitHub issues to track tasks and features to be implemented in the project.
 
-## 5. Use CSS media queries to ensure our content is always presented effectively on screens of different sizes
+3. **Branching:**
+   - Creating separate branches for different features or tasks to ensure isolated development.
 
-## 6. Demonstrate a mobile-first approach to building a website
+4. **Committing Changes:**
+   - Making changes to code files and committing them with descriptive commit messages.
 
-## 7. Use CSS variables to apply repeated colours to HTML elements
+5. **Pushing to Remote:**
+   - Pushing your branch's changes to the remote GitHub repository.
 
-## 8. Use CSS Flexbox to style children in a single-direction layout (ie a row or a column)
+6. **Pull Requests (PRs):**
+   - Creating pull requests to propose changes to the main branch.
+   - Reviewing PRs for code quality, correctness, and adherence to coding standards.
 
-## 9. Use CSS Grid to style children in two-direction layout
+7. **Merging PRs:**
+   - Merging approved pull requests into the main branch once they have been reviewed and approved.
 
-## 10. Ensure our Git commit history tells a coherent story
+8. **Handling Merge Conflicts:**
+   - Resolving conflicts that occur when multiple branches modify the same code.
 
-## 11. Use the appropriate input types in HTML forms for gathering different types of information
+9. **Collaboration:**
+   - Collaborating with team members by assigning tasks, reviewing code, and ensuring a smooth workflow.
+
+11. **Best Practices:**
+    - Following best practices for writing descriptive commit messages, linking commits to related issues, and maintaining a clean Git history.
+
