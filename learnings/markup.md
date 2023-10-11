@@ -185,3 +185,73 @@ Link to the work shop: https://learn.foundersandcoders.com/workshops/semantic-ht
 
 
 Link to the work shop: https://learn.foundersandcoders.com/workshops/learn-a11y/
+
+
+## Forms
+
+
+### Form Creation
+
+Forms are constructed using the `<form>` element, serving as a container for a variety of input elements. These input elements enable users to provide data and interact with web applications.
+
+### Input Element Varieties
+
+The `<input>` element is remarkably versatile and can represent various types of input fields. Different input types cater to the diverse data collection requirements in web forms. Some common examples include:
+- `<input type="text">`: Basic single-line text input.
+- `<textarea></textarea>`: Allows for multi-line text input.
+- `<input type="email">`: Triggers special keyboard layouts for email input and validates email format.
+- `<input type="checkbox">`: Used for binary choices, toggling specific values on or off.
+- `<input type="radio">`: Enables users to select a single option from a group of choices.
+
+### Form Submission
+
+Forms can include button elements, which, by default, initiate form submission. It is considered a best practice to explicitly specify `type="submit"` for submit buttons to enhance clarity and understanding for fellow developers.
+
+### Action Attribute
+
+When a user submits a form, it sends a request to the URL specified in the form's `action` attribute. This URL can be a relative path within the same website or an external address leading to another web destination.
+
+### Submitting User Data
+
+All input elements with a `name` attribute within the form are submitted as part of the request. This data becomes part of the "search" segment of the URL, also known as the querystring. The format follows a key-value pattern, with each field represented as `name=value`, separated by ampersands.
+
+Some input types exhibit distinct behavior during submission. For example, checkboxes are handled differently. If unchecked, they are excluded from the submission. If checked without a `value` attribute, they are sent as `name=on`. With a `value` attribute, that value is used in the submission.
+
+### Example:
+
+![Form screenshort](/screens/form.png)
+
+```html
+  <form action="https://learn-forms.netlify.com/submit/part3" class="stock-sm">
+    <label for="name"> Name: </label>
+    <input id="name" type="text" name="name">
+    <label for="email"> Email: </label>
+    <input id="email" type="email" name="email">
+    <label for="tel"> Telephone number: </label>
+    <input id="tel" type="tel" name="tel">
+    <fieldset>
+      <legend>Select your preferred contact method:</legend>
+      <label>
+        <input type="radio" name="contact" value="email">
+        Email
+      </label>
+      <label>
+        <input type="radio" name="contact" value="phone">
+        Phone
+      </label>
+      <label>
+        <input type="radio" name="contact" value="post">
+        Post
+      </label>
+    </fieldset>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+    <label for="marketingConsent">
+      <input type="checkbox" id="marketingConsent" name="marketingConsent">
+      I consent to receiving marketing emails.
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+```
+
+Link to the work shop: https://learn.foundersandcoders.com/workshops/html-forms/
