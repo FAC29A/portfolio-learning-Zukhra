@@ -150,3 +150,38 @@ By following these guidelines, you create more accessible and meaningful web pag
 
 Link to the work shop: https://learn.foundersandcoders.com/workshops/semantic-html/
 
+
+
+## Learn Accessibility
+
+1. **Accessibility Matters**: Web accessibility ensures that all users, including those with disabilities, can effectively use your websites. It's not just a good practice; it's a moral obligation for developers.
+
+2. **Avoid Assumptions**: Don't assume that all users will interact with your site in the same way. Consider a broad range of abilities and preferences when designing and developing your UI.
+
+3. **Universal Design**: Strive to create user interfaces that are accessible to everyone, regardless of their abilities or limitations. A UI that's only usable by a specific group of users is considered broken.
+
+4. **Test Thoroughly**: Extensive testing is crucial for identifying accessibility issues. Use various tools, including screen readers, keyboard navigation, and manual testing, to ensure your website is truly accessible.
+
+5. **WCAG Guidelines**: Familiarize yourself with the Web Content Accessibility Guidelines (WCAG), a comprehensive standard for web accessibility. Use tools like The A11y Project's Checklist to ensure you've covered the basics.
+
+6. **Automated Tools**: While automated testing tools like Lighthouse (only for Chrome) can catch some issues, they can't identify all accessibility problems. Manual testing remains essential to uncover complex or nuanced accessibility challenges.
+7. **Some of Accessibility Attributes and Tags**:
+
+    - **aria-label**:
+        - **Description**: The `aria-label` attribute provides an accessible name for an HTML element when the element's content doesn't convey its purpose. It's essential for elements like buttons or icons that lack text labels.
+        - **Usage Example**: `<button aria-label="Close">X</button>`
+
+    - **alt**:
+        - **Description**: The `alt` attribute is used with the `<img>` element to offer alternative text for images. This alternative text is read aloud by screen readers, describing the image for visually impaired users.
+        - **Usage Example**: `<img src="example.jpg" alt="A beautiful sunset over the mountains">`
+
+    - **tabindex**:
+        - **Description**: The `tabindex` attribute defines the tab order for interactive elements on a webpage, determining the sequence in which users navigate using the keyboard's Tab key.
+        - **Usage Example**: `<input type="text" tabindex="2">`
+
+    - **role**:
+        - **Description**: The `role` attribute defines the role or type of an element, aiding screen readers in understanding an element's purpose, especially when it doesn't have a native HTML role.
+        - **Usage Example**: `<div role="alert">This is an alert message.</div>`
+
+
+Link to the work shop: https://learn.foundersandcoders.com/workshops/learn-a11y/
