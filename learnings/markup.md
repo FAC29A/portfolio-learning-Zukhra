@@ -122,4 +122,31 @@ One of the fundamental aspects of layout design is controlling the spacing betwe
 }
 ```
 
+Link to the work shop: https://learn.foundersandcoders.com/workshops/css-layout/
+
+
+## Semantic HTML
+
+**Semantic HTML** is all about using the right HTML elements to convey the structure and meaning of your content, rather than just its appearance. It's essential for several reasons:
+
+1. **Default Styles:** Browsers provide built-in styles for standard HTML elements. By using them, you save time and ensure your page still looks good even if your CSS fails.
+
+2. **Complex Behavior:** Browsers handle intricate interactions like button clicks and keyboard actions. Relying on semantic elements saves you from reinventing the wheel.
+
+3. **Machine-Readable:** Semantic HTML allows browsers and software to understand your content. It's critical for accessibility, ensuring that tools like screen readers can interpret your page correctly.
+
+### Implementing Semantic HTML
+
+To make your HTML more semantic:
+
+- Use block elements like `<header>` and `<footer>` for meaningful page sections.
+- Employ heading tags like `<h2>` and `<h3>` to structure your content.
+- Utilize the `<a>` element for links to other pages.
+- Choose `<button>` for elements triggering JavaScript behavior.
+- Use `<form>` along with `<input>` and include `<label>` for user input forms.
+- For layout or styling, you can use non-semantic elements like `<div>` and `<span`.
+
+By following these guidelines, you create more accessible and meaningful web pages.
+
+Link to the work shop: https://learn.foundersandcoders.com/workshops/semantic-html/
 
