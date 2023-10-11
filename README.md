@@ -3,9 +3,6 @@
 
  I've had two main sources of learning: FAC29a and exploring on my own.
 
-## Example from previous cohorts
-
-- https://github.com/DominicSimpson/portfolio
 
 ## Learnings
 
