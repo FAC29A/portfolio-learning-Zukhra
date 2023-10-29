@@ -35,3 +35,24 @@ fetch("https://echo.oliverjam.workers.dev/status/404")
   })
   .catch(console.error);
 
+## Async/Await
+
+Understanding the principles of asynchronous code execution was taken a step further with the introduction of `async` and `await`. I can now use `async` functions to write asynchronous code that reads more like synchronous code, improving code readability.
+```javascript
+async function fetchData() {
+  try {
+    const response = await fetch("https://jsonplaceholder.typicode.com/posts/1");
+    
+    if (!response.ok) {
+      throw new Error(`HTTP Error! Status: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    console.log("Data received:", data);
+  } catch (error) {
+    console.error("An error occurred:", error);
+  }
+}
+
+// Call the async function to fetch data
+fetchData();
