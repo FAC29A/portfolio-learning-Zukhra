@@ -34,10 +34,11 @@ fetch("https://echo.oliverjam.workers.dev/status/404")
     console.log(response);
   })
   .catch(console.error);
-
+```
 ## Async/Await
 
 Understanding the principles of asynchronous code execution was taken a step further with the introduction of `async` and `await`. I can now use `async` functions to write asynchronous code that reads more like synchronous code, improving code readability.
+
 ```javascript
 async function fetchData() {
   try {
