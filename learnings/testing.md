@@ -14,7 +14,29 @@ The initial phase provided an introduction to the fundamental concepts of testin
 
 #### 1. Build a Testing Library
 
-This workshop involved the construction of a testing library. Through hands-on exercises, I gained practical insights into the mechanics of creating a testing framework.
+The concept of testing code is often introduced with complex libraries. This hides the core of testing: writing some code that runs your other code and tells you if it’s wrong. This workshop introduces the concept by slowly building up a useful function that helps you test your code.
+```javascript
+// Testing function to check if two values are equal
+function equal(actual, expected, message) {
+  if (actual === expected) {
+    const defaultMessage = `Expected ${expected}, and received ${actual}`;
+    console.info("Pass: " + (message || defaultMessage));
+  } else {
+    const defaultMessage = `Expected ${expected}, but received ${actual} instead`;
+    console.error("Fail: " + (message || defaultMessage));
+  }
+}
+
+// Testing function to check if two values are not equal
+function notEqual(actual, expected, message) {
+  if (actual !== expected) {
+    const defaultMessage = `${expected} is different from ${actual}`;
+    console.info("Pass: " + (message || defaultMessage));
+  } else {
+    const defaultMessage = `${expected} is the same as ${actual}`;
+    console.error("Fail: " + (message || defaultMessage));
+  }
+}
 
 #### 2. Unit Testing Workshop
 
