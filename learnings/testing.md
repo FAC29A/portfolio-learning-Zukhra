@@ -44,21 +44,21 @@ function notEqual(actual, expected, message) {
 The unit testing workshop was dedicated to understanding the principles and practices of unit testing. Practical exercises allowed for the application of these concepts to real-world scenarios.
 
 **Unit Testing Description:**
-Unit testing involves testing individual units or components of a software to ensure they perform as expected. In this workshop, I learned the importance of isolating units for testing and how to write effective unit tests for various scenarios.
+Unit testing involves testing individual units or components of a software to ensure they perform as expected. 
 
 #### 3. Integration Testing Workshop
 
 Integration testing, a critical aspect of ensuring components work together seamlessly, was explored in this workshop. Practical examples provided a deep understanding of integration testing methodologies.
 
 **Integration Testing Description:**
-Integration testing focuses on testing the interaction between different components or modules of a system. This workshop delved into strategies for integration testing, emphasizing the importance of validating the collaboration between units.
+Integration testing focuses on testing the interaction between different components or modules of a system.
 
 #### 4. TDD Workshop
 
 Test-Driven Development (TDD) was a central theme of this workshop. I learned how to approach development by writing tests before implementing features, enhancing code reliability.
 
 **TDD Description:**
-Test-Driven Development is a methodology where tests are written before the actual code. This promotes a clear understanding of requirements and ensures that the codebase remains maintainable. The workshop provided hands-on experience in applying TDD principles to real-world projects.
+Test-Driven Development is a methodology where tests are written before the actual code. This promotes a clear understanding of requirements and ensures that the codebase remains maintainable. 
 
 
 ## Key Takeaways
