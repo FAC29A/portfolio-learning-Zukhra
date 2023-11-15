@@ -14,7 +14,7 @@ The initial phase provided an introduction to the fundamental concepts of testin
 
 #### 1. Build a Testing Library
 
-The concept of testing code is often introduced with complex libraries. This hides the core of testing: writing some code that runs your other code and tells you if it’s wrong. This workshop introduces the concept by slowly building up a useful function that helps you test your code.
+The concept of testing code is often introduced with complex libraries. This hides the core of testing: writing some code that runs your other code and tells you if it’s wrong. This workshop introduces the concept by slowly building up a useful and reusable function that helps you test your code.
 ```javascript
 // Testing function to check if two values are equal
 function equal(actual, expected, message) {
