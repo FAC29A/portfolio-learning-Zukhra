@@ -37,6 +37,7 @@ function notEqual(actual, expected, message) {
     console.error("Fail: " + (message || defaultMessage));
   }
 }
+````
 
 #### 2. Unit Testing Workshop
 
